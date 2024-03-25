@@ -20,7 +20,7 @@ newgrp docker
 sudo chmod 777 /var/run/docker.sock
 
 3. Dockerizing python web server
- Build,Run,Push
+   Build,Run,Push
  
  docker build -t phpwebserver .
  docker run -d -p 8000:8000 phpwebserver
